@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">SURVEY FORM</h1>
+        <h3>Thank you for taking the time to help us improve the platform</h3>
+    </div>
+    <form>
+        <h1 class="h1">Basic Information</h1>
+        <div class="space">
+        <div class="name">
+            <div class="fname">
+                <label for="fname">First Name:</label>
+                <input type="text" class="firstname" id="fname" name="fname" placeholder="Enter your First Name" required>
+            </div>
+            <div class="lname">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" class="firstname" id="fname" name="lname"  placeholder="Enter your Last Name" required>
+            </div>
+        </div>
+
+        <div class="name">
+            <div class="fname">
+                    <label for="age">Age:</label>
+                    <input type="number" class="age" id="age" name="age"  placeholder="Age"required>
+            </div>
+            <div class="lname">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" class="male" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" class="female" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                    <input type="radio" class="other" id="other" name="gender" value="other" required>
+                    <label for="other">Other</label>
+            </div>
+        </div>
+
+        <div class="name">
+                <div class="fname">
+                    <label for="phone">Phone number:</label>
+                    <input type="number" class="phone"id="phone" name="phone"  placeholder="Phone Number" required>
+                </div>
+                <div class="lname">
+                    <label for="email">Email:</label>
+                    <input type="email"class="email" id="email" name="email"  placeholder="Email" required>
+                </div>
+
+            </div>
+        </div>
+
+            <h1 class="h1">Demographic Information</h1>
+            <div class="space">
+            <div class="address">
+                <div class="line1">
+                    <label for="doorno">Door no/Building Number:</label>
+                    <input type="text" class="addresss" id="doorno" name="doorno" placeholder="Door no/Building Number" required>
+                </div>
+
+                <div class="line2">
+                    <label for="street">Street Name/Area Name:</label>
+                    <input type="text" placeholder="Street Name/Area Name"class="addresss" id="street" name="street" required>
+                </div>
+                <div class="line3">
+                    <label for="city">City Name/District Name:</label>
+                    <input type="text" placeholder="City Name/District Name"class="addresss" id="city" name="city" required>
+                </div>
+            </div>
+
+            <div class="address">
+                <div class="line1">
+                    <label for="state">State Name:</label>
+                    <input type="text"placeholder="State Name" class="addresss" id="state" name="state" required>
+                </div>
+
+                <div class="line2">
+                    <label for="country">Country:</label>
+                    <input type="text" placeholder="Country"class="addresss" id="country" name="country" required>
+                </div>
+                <div class="line3">
+                    <label for="pincode">Pin Code/Postal Code:</label>
+                    <input type="text" placeholder="Pin Code/Postal Code" class="addresss" id="pincode" name="pincode" required>
+                </div>
+            </div>
+            </div>
+            
+
+            <h1 class="h1">Customer Experience</h1>
+            <div class="space">
+            <div class="customerexperience">
+            <div class="hear">
+                <label for="hear">1. How did you hear about our business/organization?</label>
+                <select id="hear" class="customer" name="hear" required>
+                    <option value="6">Select an option</option>
+                    <option value="5">Social Media</option>
+                    <option value="4">Website</option>
+                    <option value="3">Advertisement</option>
+                    <option value="2">Events</option>
+                    <option value="1">Friends</option>
+                </select>
+            </div>
+            <div class="use">
+                <lable for="use">2. How often do you use our products/services?</lable>
+                <select id="use" class="customer" name="use" required>
+                    <option value="">select an option</option>
+                    <option value="">Regularly</option>
+                    <option value="">Occasionally</option>
+                    <option value="">Rarely</option>
+                    <option value="">Never used</option>
+                </select>
+            </div>
+            <div class="used">
+                <lable for="used">3. What products/services have you used?</lable>
+                <input type="text" id="used" class="addresss" name="used">
+            </div>
+                   
+            <div class="satisfaction">
+                <label for="satisfaction">4. How satisfied are you with our products/services</label>
+                <select id="satisfaction" class="customer" name="satisfaction" required>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Very Good</option>
+                    <option value="3">3 - Good</option>
+                    <option value="2">2 - Fair</option>
+                    <option value="1">1 - Poor</option>
+                </select>
+            </div>
+            <div class="recommend">
+                <label for="recommend">5. Would you recommend our products/services to others?</label>
+                <select id="recommend" class="customer1" name="recommend" required>
+                    <option value="">Yes</option>
+                    <option value="">No</option>
+                </select>
+            </div>
+            </div>
+            </div>
+
+            <h1 class="h1">Feedback and Suggestions</h1>
+            <div class="space">
+                <div class="feedback">
+                <div class="fb1">
+                    <label for="fb1">1. Do you have any feedback or suggestions for improvement?</label>
+                    <input type="text" class="fs1" id="fb1" name="fb1">
+                </div>
+                <div class="fb2">
+                    <label for="fb2">2. What do you like most about our products/services?</label>
+                    <input type="text" class="fs1" id="fb2" name="fb2">                </div>
+                <div class="fb3">
+                    <label for="fb3">3. What do you think we could do better?</label>
+                    <input type="text" class="fs1" id="fb3" name="fb3">
+                </div>
+            </div>
+            </div>
+            
+            
+            <h1 class="h1">Purchase History</h1>
+            <div class="space">
+            <div class="history">
+                <div class="his1">
+                    <label>1. Have you made a purchase with us in past year?</label>
+                    <select id="his1" class="customer1" name="his1">
+                        <option value="">Yes</option>
+                        <option value="">No</option>
+                    </select>
+                </div>
+                <div class="his2">
+                    <label>2. If yes, please provide the approximate purchase amount.</label>
+                    <input type="text" class="fs1" id="his2" name="his2"> 
+                </div>
+                <div class="his3">
+                    <label>3. What motivated your most recent purchase?</label>
+                    <input type="text" class="fs1" id="his3" name="his3">
+                </div>
+            </div>
+            </div>
+
+            <h1 class="h1">Customer Loyalty</h1>
+            <div class="space">
+            <div class="loyalty">
+                <div class="loy1">
+                    <label>1. Are you a member of our loyalty program?</label>
+                    <select id="loy1" class="customer1" name="loy1">
+                        <option value="">Yes</option>
+                        <option value="">No</option>
+                    </select>
+                </div>
+                <div class="loy2">
+                    <label>2. How satisfied are you with our loyalty program?</label>
+                    <select id="loy2" class="customer" name="loy2">
+                        <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Very Good</option>
+                    <option value="3">3 - Good</option>
+                    <option value="2">2 - Fair</option>
+                    <option value="1">1 - Poor</option>
+                    </select>
+                </div>
+            
+                <div class="exit1">
+                    <label>Is there anything else you would like to add?(if yes,tell us in comment box)</label>
+                    <input type="text" id="exit" name="exit" class="exit">
+                </div>
+            </div>
+            </div>
+            <button onclick="goToPage2()" class="submit">Submit</button>
+        </form>
+        <script>
+            function goToPage2() {
+                window.location.href = "submitpage.html"; // Redirect to page 2
+            }
+        </script>
+</body>
+</html>
